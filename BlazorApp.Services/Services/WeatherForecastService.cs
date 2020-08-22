@@ -1,11 +1,12 @@
+using BlazorApp.BusinessLogic.Interfaces;
 using BlazorApp.Model.Data;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BlazorApp.Data
+namespace BlazorApp.BusinessLogic.Services
 {
-    public class WeatherForecastService
+    public class WeatherForecastService : IWeatherForecastService
     {
         private static readonly string[] Summaries = new[]
         {
