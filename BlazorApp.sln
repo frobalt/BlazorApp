@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{540B15BE-2EE8-425C-9EA8-E94FAE331B25}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Data", "BlazorApp.Data\BlazorApp.Data.csproj", "{6627F989-ADDF-438C-BCD5-DBA1E7F469A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Data", "BlazorApp.Data\Shared.Data.csproj", "{6627F989-ADDF-438C-BCD5-DBA1E7F469A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Model", "BlazorApp.Model\BlazorApp.Model.csproj", "{579C5E81-F867-4D23-994B-DF006FFFF824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Model", "BlazorApp.Model\Shared.Model.csproj", "{579C5E81-F867-4D23-994B-DF006FFFF824}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.BusinessLogic", "BlazorApp.Services\BlazorApp.BusinessLogic.csproj", "{44EC5920-8689-4028-83EB-297381CA825A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.BusinessLogic", "BlazorApp.Services\Shared.BusinessLogic.csproj", "{44EC5920-8689-4028-83EB-297381CA825A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

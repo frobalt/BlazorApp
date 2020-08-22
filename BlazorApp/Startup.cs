@@ -7,9 +7,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorApp.Areas.Identity;
-using BlazorApp.Data;
-using BlazorApp.BusinessLogic.Services;
-using BlazorApp.BusinessLogic.Interfaces;
+using Shared.Data;
+using Shared.BusinessLogic.Services;
+using Shared.BusinessLogic.Interfaces;
 
 namespace BlazorApp
 {

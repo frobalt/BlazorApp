@@ -1,6 +1,6 @@
-﻿using BlazorApp.BusinessLogic.Interfaces;
-using BlazorApp.BusinessLogic.Services;
-using BlazorApp.Model.Data;
+﻿using Shared.BusinessLogic.Interfaces;
+using Shared.BusinessLogic.Services;
+using Shared.Model.Data;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;

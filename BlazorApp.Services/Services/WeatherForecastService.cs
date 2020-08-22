@@ -1,10 +1,10 @@
-using BlazorApp.BusinessLogic.Interfaces;
-using BlazorApp.Model.Data;
+using Shared.BusinessLogic.Interfaces;
+using Shared.Model.Data;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BlazorApp.BusinessLogic.Services
+namespace Shared.BusinessLogic.Services
 {
     public class WeatherForecastService : IWeatherForecastService
     {

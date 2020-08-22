@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using BlazorApp.Model.Data;
+using Shared.Model.Data;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-namespace BlazorApp.Data
+namespace Shared.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

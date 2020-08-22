@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlazorApp.Data\BlazorApp.Data.csproj" />
-    <ProjectReference Include="..\BlazorApp.Model\BlazorApp.Model.csproj" />
-    <ProjectReference Include="..\BlazorApp.Services\BlazorApp.BusinessLogic.csproj" />
+    <ProjectReference Include="..\BlazorApp.Data\Shared.Data.csproj" />
+    <ProjectReference Include="..\BlazorApp.Model\Shared.Model.csproj" />
+    <ProjectReference Include="..\BlazorApp.Services\Shared.BusinessLogic.csproj" />
   </ItemGroup>
 
 </Project>

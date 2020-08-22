@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace BlazorApp.Data.Migrations
+namespace Shared.Data.Migrations
 {
     public partial class NewTable_People : Migration
     {

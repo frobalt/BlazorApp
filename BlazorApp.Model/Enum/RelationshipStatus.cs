@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BlazorApp.Model.Enum
+namespace Shared.Model.Enum
 {
     public enum RelationshipStatus
     {

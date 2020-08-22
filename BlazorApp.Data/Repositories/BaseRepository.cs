@@ -1,12 +1,12 @@
-﻿using BlazorApp.Data.Interfaces;
-using BlazorApp.Model.Data;
+﻿using Shared.Data.Interfaces;
+using Shared.Model.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlazorApp.Data.Repositories
+namespace Shared.Data.Repositories
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : EntityBase
     {

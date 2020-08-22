@@ -1,10 +1,10 @@
-﻿using BlazorApp.Model.Enum;
+﻿using Shared.Model.Enum;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace BlazorApp.Model.Data
+namespace Shared.Model.Data
 {
     public class Person : EntityBase
     {

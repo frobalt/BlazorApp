@@ -1,10 +1,10 @@
-﻿using BlazorApp.Model.Data;
+﻿using Shared.Model.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlazorApp.BusinessLogic.Interfaces
+namespace Shared.BusinessLogic.Interfaces
 {
     public interface IWeatherForecastService
     {

@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlazorApp.Data\BlazorApp.Data.csproj" />
-    <ProjectReference Include="..\BlazorApp.Model\BlazorApp.Model.csproj" />
+    <ProjectReference Include="..\BlazorApp.Data\Shared.Data.csproj" />
+    <ProjectReference Include="..\BlazorApp.Model\Shared.Model.csproj" />
   </ItemGroup>
 
 </Project>
