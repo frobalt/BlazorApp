@@ -19,4 +19,8 @@
     <ProjectReference Include="..\BlazorApp.Services\Shared.BusinessLogic.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Shared\Components\" />
+  </ItemGroup>
+
 </Project>

@@ -10,6 +10,8 @@ using BlazorApp.Areas.Identity;
 using Shared.Data;
 using Shared.BusinessLogic.Services;
 using Shared.BusinessLogic.Interfaces;
+using Shared.Data.Interfaces;
+using Shared.Data.Repositories;
 
 namespace BlazorApp
 {
@@ -34,7 +36,9 @@ namespace BlazorApp
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
-            services.AddSingleton<IWeatherForecastService, WeatherForecastService>();
+
+            ConfigureRepositories(services);
+            ConfigureBusinessLogic(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -75,6 +79,17 @@ namespace BlazorApp
             using var scope = app.ApplicationServices.CreateScope();
             var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
             dbContext.Database.Migrate();
-        }  
+        }
+
+        protected virtual void ConfigureRepositories(IServiceCollection services)
+        {
+            services.AddScoped<IPeopleRepository, PeopleRepository>();
+        }
+
+        protected virtual void ConfigureBusinessLogic(IServiceCollection services)
+        {
+            services.AddSingleton<IWeatherForecastService, WeatherForecastService>();
+            services.AddScoped<IPeopleService, PeopleService>();
+        }
     }
 }

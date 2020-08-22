@@ -14,7 +14,6 @@ namespace Shared.Model.Data
         }
         public Person(string name, DateTime dateOfBirth, RelationshipStatus relationshipStatus = RelationshipStatus.Unknown)
         {
-            Id = Guid.NewGuid();
             Name = name;
             DateOfBirth = dateOfBirth.Date;
             RelationshipStatus = relationshipStatus;
